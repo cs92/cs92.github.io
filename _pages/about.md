@@ -1,11 +1,10 @@
 ---
-permalink: /
 layout: archive
+title: "About me"
+permalink: /
 author_profile: true
 classes: wide
 ---
-
-## About me
 
 Hi there! My name is Sridhar (pronounced sh-ree-dhur).
 

@@ -13,6 +13,14 @@
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+  
+    <!--added to get text justification throughout-->
+	<style>
+	div {
+	  text-align: justify;
+	  text-justify: inter-word;
+	}
+	</style>   
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 

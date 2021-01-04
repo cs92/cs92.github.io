@@ -10,5 +10,7 @@ main:
     url: /code/
   - title: "CV"
     url: /cv/
+  - title: "Blog Posts"
+    url: /year-archive/   
   - title: "Contact"
     url: /contact/

@@ -12,17 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Homepage"
+title                    : "Sridhar Chellappa"
 title_separator          : "-"
-name                     : "Name1 Name2"
-description              : "Name's academic homepage"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Sridhar Chellappa"
+description              : "PhD Student"
+url                      : "https://cs92.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "cs92/cs92.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -100,12 +100,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Name1 Name2"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master of CSS"
-  location         : 
+  name             : "Sridhar Chellappa"
+  avatar           : "/assets/chellappa.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "PhD student"
+  location         : "Magdeburg, Germnay"
   employer         : 
-  email            : "email@email.com"
+  email            : "chellappa@mpi-magdeburg.mpg.de"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : 
@@ -114,20 +114,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "cs92"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=TOmPqmoAAAAJ&hl=en"
   pinterest        :
+  researchgate     : "Sridhar_Chellappa"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          :  "anothermathguy"
   vine             :
   weibo            :
   xing             :
@@ -169,6 +170,7 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+timezone: Europe/Berlin
 
 
 # Conversion
@@ -291,6 +293,15 @@ collections:
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
   # _pages
   - scope:
       path: ""
@@ -326,7 +337,10 @@ defaults:
     values:
       layout: single-code
       author_profile: true
-
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
 
 
 

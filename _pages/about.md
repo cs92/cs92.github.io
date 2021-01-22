@@ -21,4 +21,4 @@ My main areas of interest are:
 - Numerical Linear Algebra
 - Reduced Basis Method
 
-More recently, I am also getting myself familiar with _Scientific Machine Leaning_.
+More recently, I am also getting myself familiar with _Scientific Machine Learning_.

@@ -20,11 +20,9 @@ List of Publications:
 
 1. V. de la Rubia, **S. Chellappa**, L. Feng, P. Benner, Fast A Posteriori State Error Estimation for Reliable Frequency Sweep in Microwave Circuits via the Reduced-Basis Method, _in preparation to be submitted to IEEE TMTT_.
 
-3. , _in preparation to be submitted to IEEE TAP_.
-
 ###  <a name="sub"></a> Submitted
 
-1. **S. Chellappa**, L. Feng, P. Benner, A Training Set Subsampling Strategy for the Reduced Basis Method, Submitted to the Journal of Scientific Computing (2021).<br>
+<!-- 1. **S. Chellappa**, L. Feng, P. Benner, A Training Set Subsampling Strategy for the Reduced Basis Method, Submitted to the Journal of Scientific Computing (2021).<br>
         <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2103.06185','_blank')"> Preprint</a>
         <a class="btn--research" href="javascript:toggleBibtex('morCheFB21')">BibTeX</a>
         <div id="bib_morCheFB21" class="bibtex noshow">
@@ -59,7 +57,7 @@ List of Publications:
             url         =  {https://arxiv.org/abs/2104.12802}
           }
         </pre>
-        </div>                
+        </div>  -->               
 
 ###  <a name="acc"></a> Accepted
 

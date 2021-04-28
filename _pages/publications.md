@@ -27,10 +27,9 @@ List of Publications:
         <a class="btn--research" href="javascript:toggleBibtex('morCheFB21')">BibTeX</a>
         <div id="bib_morCheFB21" class="bibtex noshow">
         <pre>
-          @TechReport{morCheFB21,
+        @TechReport{morCheFB21,
             author      =  {Chellappa, S. and Feng, L. and Benner, P.},
-            title       =  {A Training Set Subsampling Strategy for the Reduced Basis 
-                            Method},
+            title       =  {A Training Set Subsampling Strategy for the Reduced Basis Method},
             institution =  {arXiv},
             year        =  2021,
             type        =  {e-prints},
@@ -40,7 +39,6 @@ List of Publications:
           }
         </pre>
         </div>
-
 2. **S. Chellappa**, L. Feng, V. de la Rubia, P. Benner, Inf-Sup-Constant-Free State Error Estimator for Model Order Reduction of Parametric Systems in Electromagnetics, Submitted to IEEE TAP (2021).<br>
 <!--         <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2104.12802','_blank')"> Preprint</a>
         <a class="btn--research" href="javascript:toggleBibtex('morCheFB21')">BibTeX</a>

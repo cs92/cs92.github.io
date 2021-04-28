@@ -23,26 +23,26 @@ List of Publications:
 ###  <a name="sub"></a> Submitted
 
 1. **S. Chellappa**, L. Feng, P. Benner, A Training Set Subsampling Strategy for the Reduced Basis Method, Submitted to the Journal of Scientific Computing (2021).<br>
-        <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2003.02569','_blank')"> Preprint</a>
-        <a class="btn--research" href="javascript:toggleBibtex('morCheFdetal20')">BibTeX</a>
-        <div id="bib_morCheFdetal20" class="bibtex noshow">
+        <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2103.06185','_blank')"> Preprint</a>
+        <a class="btn--research" href="javascript:toggleBibtex('morCheFB21')">BibTeX</a>
+        <div id="bib_morCheFB21" class="bibtex noshow">
         <pre>
-          @InCollection{morCheFdetal20,
-          author    = {Chellappa, S. and Feng, L. and de la Rubia, V. and Benner, P.},
-          title     = {Adaptive Interpolatory {MOR} by Learning the Error Estimator
-                      in the Parameter Domain},
-          booktitle = {Model Reduction of Complex Dynamical Systems},
-          series    = {International Series of Numerical Mathematics},
-          editors   = {Benner, P. and Breiten, T. and Fa{\ss}bender, H. and Hinze, M.
-                      and Stykel, T. and Zimmermann, R.},
-          publisher = {Springer},
-          year      = {2020}
+          @TechReport{morCheFB21,
+            author      =  {Chellappa, S. and Feng, L. and Benner, P.},
+            title       =  {A Training Set Subsampling Strategy for the Reduced Basis 
+                            Method},
+            institution =  {arXiv},
+            year        =  2021,
+            type        =  {e-prints},
+            number      =  {2103.06185},
+            note        =  {math.NA},
+            url         =  {https://arxiv.org/abs/2103.06185}
           }
         </pre>
         </div>
 
-<!-- 2. **S. Chellappa**, L. Feng, V. de la Rubia, P. Benner, Inf-Sup-Constant-Free State Error Estimator for Model Order Reduction of Parametric Systems in Electromagnetics, Submitted to IEEE TAP (2021).<br>
-        <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2104.12802','_blank')"> Preprint</a>
+2. **S. Chellappa**, L. Feng, V. de la Rubia, P. Benner, Inf-Sup-Constant-Free State Error Estimator for Model Order Reduction of Parametric Systems in Electromagnetics, Submitted to IEEE TAP (2021).<br>
+<!--         <a class="btn--research" onclick=" window.open('https://arxiv.org/abs/2104.12802','_blank')"> Preprint</a>
         <a class="btn--research" href="javascript:toggleBibtex('morCheFB21')">BibTeX</a>
         <div id="bib_morCheFdetal21" class="bibtex noshow">
         <pre>
@@ -57,7 +57,7 @@ List of Publications:
             url         =  {https://arxiv.org/abs/2104.12802}
           }
         </pre>
-        </div>             -->
+        </div>   -->          
 
 ###  <a name="acc"></a> Accepted
 
